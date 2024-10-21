@@ -1,0 +1,105 @@
+@import "./style/authors";
+@import "./style/books";
+@import "./style/statics";
+@import "./style/header";
+@import "./style/home";
+@import "./style/footer";
+@import "./style/registration";
+@import "./style/bookPage";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  color: black;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+table {
+  th {
+    font-family: 'Noto Sans Georgian', sans-serif;
+    padding: 20px;
+    font-weight: bold;
+  }
+  td {
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    font-weight: normal;
+  }
+}
+
+h2{
+  font-size: 1.8rem;
+}
+
+
+.container {
+  margin-right: 8.5%;
+  margin-left: 8.5%;
+}
+
+.fade-enter {
+  opacity: 0;
+  transform: translateY(20px);
+
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 500ms, transform 500ms; 
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+@media (max-width: 1300px) {
+  .container {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+}
+
+
+
+
+@media (max-width: 500px) {
+  html{
+    font-size: 12px;
+  }
+}
+
+
+
+input::placeholder,
+button {
+  font-family: 'Noto Sans Georgian', sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+input::placeholder {
+  opacity: 0.6;
+}
+
+
+
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Noto Sans Georgian', sans-serif;

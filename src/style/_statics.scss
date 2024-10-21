@@ -1,0 +1,27 @@
+.statics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 100px;
+  }
+  
+  .static-table {
+    width: 70%;
+  }
+  
+  .nums-td {
+    width: 150px;
+    text-align: center;
+    
+  }
+  
+  
+  .pagination-controls {
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    
+  }

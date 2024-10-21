@@ -1,0 +1,305 @@
+.authors-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+    font-family: "Noto Serif Georgian", serif;
+  }
+  
+  .modal-container {
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    padding-top: 200px;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+  }
+  
+  .add-container {
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    padding-top: 200px;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+  }
+  
+  .active {
+    display: flex !important;
+  }
+  
+  .modal {
+    border-radius: 5px;
+    display: flex;
+    padding: 4rem;
+    background-color: white;
+    width: 25em;
+  
+    form {
+      div {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+      }
+    }
+    
+  }
+  
+  .custom-upload-btn {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #ebebeb;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  
+  }
+  
+  
+  
+  
+  input {
+    padding: 13px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1),
+      0 0 15px rgba(0, 153, 255, 0.2);
+    &:focus {
+      border: none;
+  
+      outline: none;
+    }
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 50px;
+    button {
+      background-color: #296495;
+      border: none;
+      color: white;
+      min-width: 150px;
+      border-radius: 10px;
+      padding: 17px;
+      width: 160px;
+      font-family: 'Noto Sans Georgian', sans-serif;
+
+      cursor: pointer;
+      &:hover {
+        background-color: rgb(38, 155, 38);
+      }
+    }
+
+    .input {
+      position: relative;
+      img {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        top: 19px;
+        height: 20px;
+      }
+    }
+  }
+  
+  .delete-btn {
+    background-color: rgb(212, 47, 47);
+    border: none;
+    color: white;
+    padding: 5px;
+    width: 50px;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    cursor: pointer;
+    &:hover {
+      background-color: rgb(165, 43, 43);
+    }
+  }
+  
+  .edit-btn {
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+    background-color: rgb(35, 41, 33);
+    cursor: pointer;
+    &:hover {
+      background-color: black;
+    }
+  }
+  
+  .delete-btn2 {
+    background-color: rgb(212, 47, 47);
+    border: none;
+    color: white;
+    padding: 5px;
+    width: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+      background-color: rgb(165, 43, 43);
+    }
+  }
+  
+  .add-btn2 {
+    background-color: rgb(62, 172, 77);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 13px;
+    width: 160px;
+    font-family: 'Noto Sans Georgian', sans-serif;
+
+    cursor: pointer;
+  }
+  
+  .buttons {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+  
+  .cv-td {
+    min-width: 500px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Base styles for the table */
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+thead {
+  background-color: #f2f2f2;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.cv-td .buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.authors-td {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+/* Add horizontal scroll for smaller screens */
+@media (max-width: 900px) {
+  table {
+    width: 98%;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  th, td {
+    white-space: nowrap;
+  }
+}
+
+  .input-add-part {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+    input {
+      padding: 17px;
+      border-radius: 10px;
+      border: none;
+      &::placeholder {
+        font-family: 'Noto Sans Georgian', sans-serif;
+      }
+      &:focus {
+        font-family: 'Noto Sans Georgian', sans-serif;
+
+        border: none;
+        outline: none;
+      }
+    }
+  }
+  
+  
+  .pagination {
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    button {
+      background-color: #296495;
+      font-family: 'Montserrat', sans-serif;
+      border: none;
+      color: white;
+      min-width: 150px;
+      border-radius: 10px;
+      padding: 17px;
+      width: 160px;
+      cursor: pointer;
+      transition: 0.3 ease;
+
+      &:hover {
+        background-color: #1e4a6e;
+      }
+    }
+  }
+
+
+  td {
+    font-family: "Roboto", sans-serif;
+
+    a {
+      font-family: 'Montserrat', sans-serif;
+
+    }
+  }
+  
+  
+
+  @media (max-width: 700px) {
+    .header {
+      gap: 50px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .input-add-part {
+      gap: 80px !important;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .header {
+      margin-right: 0 !important;
+    }
+  }

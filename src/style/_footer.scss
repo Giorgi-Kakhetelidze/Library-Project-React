@@ -1,0 +1,135 @@
+.footer {
+    display: flex;
+    color: white !important;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    h3 {
+      margin-top: 20px;
+      margin-bottom: 30px;
+      font-family: "Noto Serif Georgian", serif;
+
+    }
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      gap: 30px;
+      
+    }
+    a {
+      position: relative;
+      font-weight: bold;
+      color: white !important;
+      font-family: "Noto Serif Georgian", serif;
+      font-weight: 500;
+      &::after {
+        content: "";
+        position: absolute;
+        border-radius: 2px;
+        top: 30px;
+        left: -5px;
+        bottom: 0;
+        width: 0;
+        height: 3px;
+        background-color: rgb(255, 255, 255);
+        transition: width 0.5s ease-in-out;
+      }
+      &:hover::after {
+        width: 110%;
+      }
+    }
+  }
+  
+  
+  .book-logo {
+    height: 100px;
+  }
+  
+  
+  footer {
+    margin-top: 200px;
+    background-color: #296495;
+  }
+  
+  .details {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+  
+  p {
+    font-family: "Noto Serif Georgian", serif;
+  }
+  
+  .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .top-part {
+    text-align: center;
+  }
+  
+  
+  .middle-part {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    .location-icon {
+      height: 50px;
+    }
+  }
+
+  .details {
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      img {
+        max-width: 50px;
+      }
+
+    }
+  }
+  
+  
+  @media (max-width: 1300px) {
+    
+    .footer {
+      flex-wrap: wrap;
+      justify-content: center;
+      justify-content: space-evenly;
+      gap: 100px;
+    }
+  }
+  
+  
+  @media (max-width: 700px) {
+    .contact,
+    .details,
+    .middle-part {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .pagination {
+      gap: 10px;
+      button {
+        min-width: 100px !important;
+        width: 100px !important;
+      }
+    }
+    
+    
+  }
+
+  @media (max-width: 431px) {
+    .footer {
+      text-align: center;
+    }
+  }

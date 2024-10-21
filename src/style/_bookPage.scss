@@ -1,0 +1,70 @@
+.book-details {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    p {
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+  }
+  
+  h1 {
+    font-size: 3rem;
+  }
+
+  .details-container {
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(243, 242, 242);
+    border-radius: 50px;
+    width: 70%;
+    img {
+      height: 400px;
+      border-radius: 20px;
+    }
+    .text-info {
+      max-width: 37%;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .author {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+  
+  .getBack {
+    width: 70%;
+    button {
+      font-family: 'Noto Sans Georgian', sans-serif;
+      background-color: #296495;
+      display: flex;
+      align-items: center;
+      border: none;
+      cursor: pointer;
+      color: white;
+      padding: 20px;
+      border-radius: 20px;
+    }
+  }
+
+  @media (max-width: 1300px) {
+    .details-container {
+      width: 100%;
+    }
+  }
+
+
+  @media (max-width: 730px) {
+    .details-container {
+      flex-wrap: wrap;
+    }
+  }

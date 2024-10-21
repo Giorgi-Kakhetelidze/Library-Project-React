@@ -1,0 +1,213 @@
+[
+    {
+        "id": 1,
+        "title": "The Knight in the Panther's Skin",
+        "publisher": "Meridian",
+        "publication_year": 1963,
+        "authors": "Shota Rustaveli"
+    },
+    {
+        "id": 2,
+        "title": "The Last Dream",
+        "publisher": "Soviet Georgia",
+        "publication_year": 1981,
+        "authors": "Tamar Kvesitadze"
+    },
+    {
+        "id": 3,
+        "title": "The Blue Mountains",
+        "publisher": "Literature and Art",
+        "publication_year": 2005,
+        "authors": "Keti Kapanadze"
+    },
+    {
+        "id": 4,
+        "title": "Journey to the End of the World",
+        "publisher": "Saarbrücken",
+        "publication_year": 2008,
+        "authors": "Nana Ekvtimishvili"
+    },
+    {
+        "id": 5,
+        "title": "The Last Secrets",
+        "publisher": "Georgian Literature",
+        "publication_year": 2000,
+        "authors": "Davit Gurgenidze"
+    },
+    {
+        "id": 6,
+        "title": "The Silence of the Sea",
+        "publisher": "Universal",
+        "publication_year": 1995,
+        "authors": "Otar Tushishvili"
+    },
+    {
+        "id": 7,
+        "title": "The Woman of the Sea",
+        "publisher": "Kakheti Publishing",
+        "publication_year": 2012,
+        "authors": "Tamar Bibiluri"
+    },
+    {
+        "id": 8,
+        "title": "The Heart of the City",
+        "publisher": "Bakur Sulakauri Publishing",
+        "publication_year": 2014,
+        "authors": "Nino Harutyunyan"
+    },
+    {
+        "id": 9,
+        "title": "The Sun and the Moon",
+        "publisher": "Saqartvelos Kulturebi",
+        "publication_year": 2001,
+        "authors": "Mariam Tsiklauri"
+    },
+    {
+        "id": 10,
+        "title": "The End of the Journey",
+        "publisher": "Biblus",
+        "publication_year": 1998,
+        "authors": "Zaza Shatirishvili"
+    },
+    {
+        "id": 11,
+        "title": "My Soul's Echo",
+        "publisher": "Prometheus",
+        "publication_year": 2017,
+        "authors": "Natia Jojua"
+    },
+    {
+        "id": 12,
+        "title": "The Pain of Time",
+        "publisher": "Saarbrücken",
+        "publication_year": 2003,
+        "authors": "Giga Dolidze"
+    },
+    {
+        "id": 13,
+        "title": "Mysterious Nights",
+        "publisher": "Artanuji",
+        "publication_year": 2010,
+        "authors": "Levan Tsuladze"
+    },
+    {
+        "id": 14,
+        "title": "The Color of Autumn",
+        "publisher": "Karduli",
+        "publication_year": 2015,
+        "authors": "Salome Kvaratskhelia"
+    },
+    {
+        "id": 15,
+        "title": "The Dance of Shadows",
+        "publisher": "Tsiteli Shadrevani",
+        "publication_year": 2006,
+        "authors": "Tako Sukhitashvili"
+    },
+    {
+        "id": 16,
+        "title": "Waves of History",
+        "publisher": "Gronika",
+        "publication_year": 2004,
+        "authors": "Giorgi Koberidze"
+    },
+    {
+        "id": 17,
+        "title": "The Call of the Mountains",
+        "publisher": "Saqartvelos Datsvna",
+        "publication_year": 2011,
+        "authors": "Irakli Abashidze"
+    },
+    {
+        "id": 18,
+        "title": "The Bridge of Sighs",
+        "publisher": "Literature and Art",
+        "publication_year": 2009,
+        "authors": "Anano Kakhadze"
+    },
+    {
+        "id": 19,
+        "title": "In Search of Happiness",
+        "publisher": "Matsne",
+        "publication_year": 2016,
+        "authors": "Natia Tsitsishvili"
+    },
+    {
+        "id": 20,
+        "title": "Eclipse",
+        "publisher": "Universal",
+        "publication_year": 2018,
+        "authors": "Tamar Iashvili"
+    },
+    {
+        "id": 21,
+        "title": "The Wind of Change",
+        "publisher": "Biblus",
+        "publication_year": 2002,
+        "authors": "Levan Chikovani"
+    },
+    {
+        "id": 22,
+        "title": "Reflections",
+        "publisher": "Artanuji",
+        "publication_year": 1997,
+        "authors": "Giorgi Shatirishvili"
+    },
+    {
+        "id": 23,
+        "title": "The Light of the Stars",
+        "publisher": "Meridian",
+        "publication_year": 2019,
+        "authors": "Salome Nadiradze"
+    },
+    {
+        "id": 24,
+        "title": "In the Shadow of the Mountains",
+        "publisher": "Saarbrücken",
+        "publication_year": 1996,
+        "authors": "Giorgi Chkheidze"
+    },
+    {
+        "id": 25,
+        "title": "The Secret of the Forest",
+        "publisher": "Kakheti Publishing",
+        "publication_year": 2020,
+        "authors": "Nino Janiashvili"
+    },
+    {
+        "id": 26,
+        "title": "The Song of the Heart",
+        "publisher": "Prometheus",
+        "publication_year": 2013,
+        "authors": "Tako Gabrichidze"
+    },
+    {
+        "id": 27,
+        "title": "The Gift of Time",
+        "publisher": "Saqartvelos Kulturebi",
+        "publication_year": 2021,
+        "authors": "Tamar Abuladze"
+    },
+    {
+        "id": 28,
+        "title": "The Dance of Fire",
+        "publisher": "Tsiteli Shadrevani",
+        "publication_year": 2022,
+        "authors": "Levan Chikovani"
+    },
+    {
+        "id": 29,
+        "title": "The Voice of the Heart",
+        "publisher": "Gronika",
+        "publication_year": 2023,
+        "authors": "Salome Abashidze"
+    },
+    {
+        "id": 30,
+        "title": "The Journey of a Thousand Miles",
+        "publisher": "Kakheti Publishing",
+        "publication_year": 2023,
+        "authors": "Anano Mgaloblishvili"
+    }
+  ]
+  

@@ -1,0 +1,489 @@
+{
+    "items": [
+      {
+        "id": "1",
+        "volumeInfo": {
+          "title": "To Kill a Mockingbird",
+          "authors": ["Harper Lee"],
+          "imageLinks": {
+            "thumbnail": "https://books.google.com/books/content?id=PGR2AwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "description": "A gripping, heart-wrenching tale of a young girl in the Deep South who is forced to face the realities of prejudice and racism.",
+          "publishedDate": "1960",
+          "pageCount": 281,
+          "categories": ["Fiction", "Classic"],
+          "language": "English"
+        }
+      },
+      {
+        "id": "2",
+        "volumeInfo": {
+          "title": "1984",
+          "authors": ["George Orwell"],
+          "imageLinks": {
+            "thumbnail": "https://books.google.com/books/content?id=kotPYEqx7kMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "description": "A dystopian novel set in a totalitarian society ruled by Big Brother.",
+          "publishedDate": "1949",
+          "pageCount": 328,
+          "categories": ["Fiction", "Dystopian"],
+          "language": "English"
+        }
+      },
+      
+      {
+        "id": "30",
+        "volumeInfo": {
+          "title": "The Brothers Karamazov",
+          "authors": ["Fyodor Dostoevsky"],
+          "imageLinks": {
+            "thumbnail": "https://m.media-amazon.com/images/I/81TnYwmy65L._AC_UF1000,1000_QL80_.jpg"
+          },
+          "description": "A philosophical novel that delves into faith, doubt, free will, and morality through the story of the Karamazov family.",
+          "publishedDate": "1880",
+          "pageCount": 796,
+          "categories": ["Fiction", "Philosophical"],
+          "language": "Russian"
+        }
+      },
+      
+      {
+        "id": "4",
+        "volumeInfo": {
+          "title": "The Great Gatsby",
+          "authors": ["F. Scott Fitzgerald"],
+          "imageLinks": {
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKi5lknrw7SIwZ01RQRqyvtXz2bFxrUsGVpA&s"
+          },
+          "description": "A story of the mysteriously wealthy Jay Gatsby and his love for the beautiful Daisy Buchanan.",
+          "publishedDate": "1925",
+          "pageCount": 180,
+          "categories": ["Fiction", "Classic"],
+          "language": "English"
+        }
+      },
+      {
+        "id": "5",
+        "volumeInfo": {
+          "title": "Moby-Dick",
+          "authors": ["Herman Melville"],
+          "imageLinks": {
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrlimtxw_olWw4HpnXfhjWkF6CDV_X95gUcQ&s"
+          },
+          "description": "The narrative of Ishmael's maritime adventures on the whaling ship Pequod, led by Captain Ahab.",
+          "publishedDate": "1851",
+          "pageCount": 585,
+          "categories": ["Fiction", "Adventure"],
+          "language": "English"
+        }
+      },
+      {
+        "id": "6",
+        "volumeInfo": {
+          "title": "War and Peace",
+          "authors": ["Leo Tolstoy"],
+          "imageLinks": {
+            "thumbnail": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1686602284i/177106015.jpg"
+          },
+          "description": "A historical novel that chronicles the history of the French invasion of Russia.",
+          "publishedDate": "1869",
+          "pageCount": 1225,
+          "categories": ["Fiction", "Historical"],
+          "language": "English"
+        }
+      },
+      {
+        "id": "7",
+        "volumeInfo": {
+          "title": "Crime and Punishment",
+          "authors": ["Fyodor Dostoevsky"],
+          "imageLinks": {
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4b/Crimeandpunishmentcover.png"
+          },
+          "description": "A psychological drama that explores the moral dilemmas faced by a young student who believes he can justify murder.",
+          "publishedDate": "1866",
+          "pageCount": 430,
+          "categories": ["Fiction", "Classic"],
+          "language": "Russian"
+        }
+      },
+      {
+        "id": "8",
+        "volumeInfo": {
+          "title": "The Catcher in the Rye",
+          "authors": ["J.D. Salinger"],
+          "imageLinks": {
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/The_Catcher_in_the_Rye_%281951%2C_first_edition_cover%29.jpg/640px-The_Catcher_in_the_Rye_%281951%2C_first_edition_cover%29.jpg"
+          },
+          "description": "A story about teenage alienation and loss of innocence in the life of Holden Caulfield.",
+          "publishedDate": "1951",
+          "pageCount": 234,
+          "categories": ["Fiction", "Classic"],
+          "language": "English"
+        }
+      },
+      {
+        "id": "9",
+        "volumeInfo": {
+          "title": "The Lord of the Rings",
+          "authors": ["J.R.R. Tolkien"],
+          "imageLinks": {
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4SxaugWdON7m5X-krY2jbuBM8EVF5esugag&s"
+          },
+          "description": "An epic fantasy tale of the quest to destroy the One Ring and the battle against the Dark Lord Sauron.",
+          "publishedDate": "1954",
+          "pageCount": 1178,
+          "categories": ["Fiction", "Fantasy"],
+          "language": "English"
+        }
+      },
+      {
+        "id": "10",
+        "volumeInfo": {
+          "title": "Brave New World",
+          "authors": ["Aldous Huxley"],
+          "imageLinks": {
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/62/BraveNewWorld_FirstEdition.jpg"
+          },
+          "description": "A dystopian novel that explores a technologically advanced society where happiness is enforced.",
+          "publishedDate": "1932",
+          "pageCount": 311,
+          "categories": ["Fiction", "Dystopian"],
+          "language": "English"
+        }
+      },
+      {
+        "id": "11",
+        "volumeInfo": {
+          "title": "Animal Farm",
+          "authors": ["George Orwell"],
+          "imageLinks": {
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH3DwfAkuoYOmwD8P3gxHVA8o1uQUO4OpPKQ&s"
+          },
+          "description": "A satire of totalitarianism, presenting a group of farm animals who overthrow their human farmer.",
+          "publishedDate": "1945",
+          "pageCount": 112,
+          "categories": ["Fiction", "Political Satire"],
+          "language": "English"
+        }
+      },
+      {
+        "id": "12",
+        "volumeInfo": {
+          "title": "Jane Eyre",
+          "authors": ["Charlotte Brontë"],
+          "imageLinks": {
+            "thumbnail": "https://images.saymedia-content.com/.image/t_share/MTc5ODE1MjA1MzQ4MzIwODc5/book-review-jane-eyre-by-charlotte-bronte.jpg"
+          },
+          "description": "A novel that portrays the emotional and spiritual growth of an orphaned girl.",
+          "publishedDate": "1847",
+          "pageCount": 500,
+          "categories": ["Fiction", "Classic"],
+          "language": "English"
+        }
+      },
+      {
+        "id": "13",
+        "volumeInfo": {
+          "title": "Wuthering Heights",
+          "authors": ["Emily Brontë"],
+          "imageLinks": {
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlbYWMzoGt8wIauGuvvc5z8fqQcurArxvkwg&s"
+          },
+          "description": "A tale of passion and revenge set on the Yorkshire moors, focusing on the tumultuous relationship between Heathcliff and Catherine Earnshaw.",
+          "publishedDate": "1847",
+          "pageCount": 416,
+          "categories": ["Fiction", "Gothic"],
+          "language": "English"
+        }
+      },
+      {
+        "id": "14",
+        "volumeInfo": {
+          "title": "The Odyssey",
+          "authors": ["Homer"],
+          "imageLinks": {
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq6hqaz4VtgTvByxWAmAQ4uqI1IPKlshdhFQ&s"
+          },
+          "description": "An epic poem that narrates the adventures of Odysseus on his way home from the Trojan War.",
+          "publishedDate": "circa 8th century BC",
+          "pageCount": 400,
+          "categories": ["Fiction", "Epic"],
+          "language": "Ancient Greek"
+        }
+      },
+      {
+        "id": "15",
+        "volumeInfo": {
+          "title": "The Grapes of Wrath",
+          "authors": ["John Steinbeck"],
+          "imageLinks": {
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/a/ad/The_Grapes_of_Wrath_%281939_1st_ed_cover%29.jpg"
+          },
+          "description": "A novel that tells the story of a family during the Great Depression as they migrate westward in search of a better life.",
+          "publishedDate": "1939",
+          "pageCount": 464,
+          "categories": ["Fiction", "Historical"],
+          "language": "English"
+        }
+      },
+      {
+        "id": "16",
+        "volumeInfo": {
+          "title": "The Picture of Dorian Gray",
+          "authors": ["Oscar Wilde"],
+          "imageLinks": {
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3ZGUwCH_EzbCuDxrzfSECJdl-keVH93HN5A&s"
+          },
+          "description": "A philosophical novel that explores the relationship between beauty and morality through the story of a man who remains eternally young.",
+          "publishedDate": "1890",
+          "pageCount": 254,
+          "categories": ["Fiction", "Philosophical"],
+          "language": "English"
+        }
+      },
+      {
+        "id": "17",
+        "volumeInfo": {
+          "title": "The Brothers Karamazov",
+          "authors": ["Fyodor Dostoevsky"],
+          "imageLinks": {
+            "thumbnail": "https://m.media-amazon.com/images/I/81TnYwmy65L._AC_UF1000,1000_QL80_.jpg"
+          },
+          "description": "A philosophical novel that delves into faith, doubt, free will, and morality through the story of the Karamazov family.",
+          "publishedDate": "1880",
+          "pageCount": 796,
+          "categories": ["Fiction", "Philosophical"],
+          "language": "Russian"
+        }
+      },
+      {
+        "id": "18",
+        "volumeInfo": {
+          "title": "The Hitchhiker's Guide to the Galaxy",
+          "authors": ["Douglas Adams"],
+          "imageLinks": {
+            "thumbnail": "https://cdn.waterstones.com/bookjackets/large/9781/5290/9781529034523.jpg"
+          },
+          "description": "A comedic science fiction series that follows the misadventures of Arthur Dent, who is swept off Earth before its destruction.",
+          "publishedDate": "1979",
+          "pageCount": 224,
+          "categories": ["Fiction", "Science Fiction"],
+          "language": "English"
+        }
+      },
+      {
+        "id": "19",
+        "volumeInfo": {
+          "title": "The Fault in Our Stars",
+          "authors": ["John Green"],
+          "imageLinks": {
+            "thumbnail": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1660273739i/11870085.jpg"
+          },
+          "description": "A touching story about two teenagers who meet in a cancer support group and fall in love.",
+          "publishedDate": "2012",
+          "pageCount": 313,
+          "categories": ["Fiction", "Young Adult"],
+          "language": "English"
+        }
+      },
+      {
+        "id": "20",
+        "volumeInfo": {
+          "title": "The Alchemist",
+          "authors": ["Paulo Coelho"],
+          "imageLinks": {
+            "thumbnail": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654371463i/18144590.jpg"
+          },
+          "description": "A philosophical novel that follows a shepherd named Santiago on his journey to discover his personal legend.",
+          "publishedDate": "1988",
+          "pageCount": 208,
+          "categories": ["Fiction", "Philosophical"],
+          "language": "Portuguese"
+        }
+      },
+      {
+        "id": "21",
+        "volumeInfo": {
+          "title": "The Bell Jar",
+          "authors": ["Sylvia Plath"],
+          "imageLinks": {
+            "thumbnail": "https://m.media-amazon.com/images/I/81dfBzANy9L._AC_UF1000,1000_QL80_.jpg"
+          },
+          "description": "A semi-autobiographical novel that explores the mental health struggles of a young woman.",
+          "publishedDate": "1963",
+          "pageCount": 244,
+          "categories": ["Fiction", "Autobiographical"],
+          "language": "English"
+        }
+      },
+      {
+        "id": "22",
+        "volumeInfo": {
+          "title": "The Road",
+          "authors": ["Cormac McCarthy"],
+          "imageLinks": {
+            "thumbnail": "https://m.media-amazon.com/images/I/91bwHfPx-SL._AC_UF894,1000_QL80_.jpg"
+          },
+          "description": "A post-apocalyptic novel that follows a father and son as they journey through a desolate America.",
+          "publishedDate": "2006",
+          "pageCount": 287,
+          "categories": ["Fiction", "Post-Apocalyptic"],
+          "language": "English"
+        }
+      },
+      {
+        "id": "23",
+        "volumeInfo": {
+          "title": "The Hitchhiker's Guide to the Galaxy",
+          "authors": ["Douglas Adams"],
+          "imageLinks": {
+            "thumbnail": "https://cdn.waterstones.com/bookjackets/large/9781/5290/9781529034523.jpg"
+          },
+          "description": "A comedic science fiction series that follows the misadventures of Arthur Dent, who is swept off Earth before its destruction.",
+          "publishedDate": "1979",
+          "pageCount": 224,
+          "categories": ["Fiction", "Science Fiction"],
+          "language": "English"
+        }
+      },
+      {
+        "id": "24",
+        "volumeInfo": {
+          "title": "The Color Purple",
+          "authors": ["Alice Walker"],
+          "imageLinks": {
+            "thumbnail": "https://m.media-amazon.com/images/I/71f6DRbcrsL._AC_UF1000,1000_QL80_.jpg"
+          },
+          "description": "A novel that tells the story of a young African American woman in the early 20th century South.",
+          "publishedDate": "1982",
+          "pageCount": 295,
+          "categories": ["Fiction", "Historical"],
+          "language": "English"
+        }
+      },
+      {
+        "id": "25",
+        "volumeInfo": {
+          "title": "Fahrenheit 451",
+          "authors": ["Ray Bradbury"],
+          "imageLinks": {
+            "thumbnail": "https://m.media-amazon.com/images/I/61l8LHt4MeL._AC_UF1000,1000_QL80_.jpg"
+          },
+          "description": "A dystopian novel that presents a future society where books are outlawed.",
+          "publishedDate": "1953",
+          "pageCount": 158,
+          "categories": ["Fiction", "Dystopian"],
+          "language": "English"
+        }
+      },
+      {
+        "id": "26",
+        "volumeInfo": {
+          "title": "Little Women",
+          "authors": ["Louisa May Alcott"],
+          "imageLinks": {
+            "thumbnail": "https://m.media-amazon.com/images/I/A1Shg7iaMoL._AC_UF1000,1000_QL80_.jpg"
+          },
+          "description": "A coming-of-age novel that follows the lives of the four March sisters during the Civil War era.",
+          "publishedDate": "1868",
+          "pageCount": 486,
+          "categories": ["Fiction", "Classic"],
+          "language": "English"
+        }
+      },
+      {
+        "id": "27",
+        "volumeInfo": {
+          "title": "Sense and Sensibility",
+          "authors": ["Jane Austen"],
+          "imageLinks": {
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqEveUjbjvFVGKNhT9G6vip6T5AtuuenlwFg&s"
+          },
+          "description": "A novel that follows the lives and romantic entanglements of the Dashwood sisters.",
+          "publishedDate": "1811",
+          "pageCount": 368,
+          "categories": ["Fiction", "Romance"],
+          "language": "English"
+        }
+      },
+      {
+        "id": "28",
+        "volumeInfo": {
+          "title": "The Catcher in the Rye",
+          "authors": ["J.D. Salinger"],
+          "imageLinks": {
+            "thumbnail": "https://m.media-amazon.com/images/I/8125BDk3l9L._AC_UF1000,1000_QL80_.jpg"
+          },
+          "description": "A story about teenage alienation and loss of innocence in the life of Holden Caulfield.",
+          "publishedDate": "1951",
+          "pageCount": 234,
+          "categories": ["Fiction", "Classic"],
+          "language": "English"
+        }
+      },
+      {
+        "id": "29",
+        "volumeInfo": {
+          "title": "The Picture of Dorian Gray",
+          "authors": ["Oscar Wilde"],
+          "imageLinks": {
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3ZGUwCH_EzbCuDxrzfSECJdl-keVH93HN5A&s"
+          },
+          "description": "A philosophical novel that explores the relationship between beauty and morality through the story of a man who remains eternally young.",
+          "publishedDate": "1890",
+          "pageCount": 254,
+          "categories": ["Fiction", "Philosophical"],
+          "language": "English"
+        }
+      },
+      
+      {
+        "id": "30",
+        "volumeInfo": {
+          "title": "Pride and Prejudice",
+          "authors": ["Jane Austen"],
+          "imageLinks": {
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKaDK7E__59IYFLtx8eExN8wlEp6Q5qzfrdA&s"
+          },
+          "description": "A romantic novel that critiques the British landed gentry at the end of the 18th century.",
+          "publishedDate": "1813",
+          "pageCount": 432,
+          "categories": ["Fiction", "Romance"],
+          "language": "English"
+        }
+      },
+      {
+        "id": "31",
+        "volumeInfo": {
+          "title": "The Catcher in the Rye",
+          "authors": ["J.D. Salinger"],
+          "imageLinks": {
+            "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/81OthjkJBuL.jpg"
+          },
+          "description": "A novel about teenage alienation, rebellion, and the complexities of adolescence as told by the iconic character Holden Caulfield.",
+          "publishedDate": "1951",
+          "pageCount": 277,
+          "categories": ["Fiction", "Classic"],
+          "language": "English"
+        }
+      },
+
+      {
+        "id": "32",
+        "volumeInfo": {
+          "title": "Moby Dick",
+          "authors": ["Herman Melville"],
+          "imageLinks": {
+            "thumbnail": "https://books.google.com/books/content?id=y9NYAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          },
+          "description": "The narrative of Captain Ahab's obsessive quest to exact revenge on the white whale that crippled him, an exploration of obsession and the human condition.",
+          "publishedDate": "1851",
+          "pageCount": 635,
+          "categories": ["Fiction", "Adventure"],
+          "language": "English"
+        }
+      }
+    ]
+  }
+  

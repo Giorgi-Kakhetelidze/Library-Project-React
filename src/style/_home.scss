@@ -1,0 +1,139 @@
+.books {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    h1 {
+      margin-bottom: 100px;
+      
+    }
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 0;
+      width: 100%;
+      justify-content: space-between;
+      li {
+        position: relative;
+        list-style: none;
+        width: 18%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        min-width: 320px;
+        a {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          height: 553px;
+          overflow: hidden;
+          border-radius: 15px;
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+          color: black;
+          font-size: 1.2rem;
+          font-family: "Roboto", sans-serif;
+
+          min-width: 260px;
+        }
+  
+        .ratio-img {
+          height: 445px;
+        }
+  
+        .info {
+          padding: 10px;
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 1400px) {
+  }
+  
+  .resp {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+  }
+  
+  .book-search {
+    margin-bottom: 50px;
+    padding-bottom: 54px;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    display: flex;
+    justify-content: end;
+    &:focus {
+      border: none; 
+      outline: none; 
+    }
+
+   
+  
+  }
+  
+  
+  
+
+ 
+  
+  @media (max-width: 700px) {
+    .book-logo {
+      height: 70px !important;
+    }
+  
+    .burger-menu {
+      width: 45px;
+      height: 50px;
+    }
+  }
+
+
+  @media (max-width: 550px) {
+    .burger-menu {
+      width: 33px;
+      height: 33px;
+      span {
+        height: 3px;
+      }
+    }
+  }
+  
+  .book-search {
+    display: flex;
+    .input {
+      position: relative;
+    }
+    img {
+      height: 20px;
+      position: absolute;
+      right: 10px;
+      cursor: pointer;
+      top: 16px;
+    }
+  }
+  .booksInput {
+    width: 300px;
+    input {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 1220px) {
+    .books ul {
+      justify-content: space-evenly;
+    }
+
+    .book-search {
+      justify-content: space-evenly;
+    }
+  }
+
+  @media (max-width: 730px) {
+
+  }
