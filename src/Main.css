@@ -679,6 +679,9 @@ nav {
     width: 45px;
     height: 50px;
   }
+  input {
+    border: 1px solid #ccc;
+  }
 }
 @media (max-width: 550px) {
   .burger-menu {
