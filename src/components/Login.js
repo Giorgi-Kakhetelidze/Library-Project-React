@@ -19,12 +19,12 @@ function Login() {
           
             <div className='inputs'>
               <img src={MailIcon}/>
-              <input type="email" name='email' placeholder='მეილი' required/>
+              <input type="email" className='input3' name='email' placeholder='მეილი' required/>
             </div>
 
             <div className='inputs'>
               <img src={Password}/>
-              <input type="password" name='password' placeholder='პაროლი' required/>
+              <input type="password" name='password' className='input3' placeholder='პაროლი' required/>
             </div>
             <div className="forgetPasword">
               <Link to="/recover">დაგავიწყდა პაროლი?</Link>

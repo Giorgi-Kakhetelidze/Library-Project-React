@@ -31,14 +31,14 @@ function Registration() {
             <div>
               <div className='inputs'>
                 <img src={NameIcon} alt="Name Icon" />
-                <input type="text" name='name' placeholder='სახელი' required />
+                <input type="text" className='input3' name='name' placeholder='სახელი' required />
               </div>
             </div>
 
             <div>
               <div className='inputs'>
                 <img src={MailIcon} alt="Mail Icon" />
-                <input type="email" name='email' placeholder='Email' required />
+                <input type="email" className='input3' name='email' placeholder='Email' required />
               </div>
             </div>
 
@@ -49,6 +49,7 @@ function Registration() {
                   type={showPassword ? "text" : "password"} // Toggle password visibility
                   name='password'
                   placeholder='პაროლი'
+                  className='input3'
                   onChange={(e) => setPassword(e.target.value)}
                   required
                 />
@@ -68,6 +69,7 @@ function Registration() {
                   type={showConfirmPassword ? "text" : "password"} // Toggle confirm password visibility
                   name='confirmPassword'
                   placeholder='დაადასტურე პაროლი'
+                  className='input3'
                   onChange={(e) => setConfirmPassword(e.target.value)}
                   required
                 />
