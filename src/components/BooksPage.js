@@ -27,7 +27,7 @@ function BooksPage() {
           უკან დაბრუნება
         </button>
       </div>
-      <h1>{book.volumeInfo.title}</h1>
+      <h1 className="bookTitle">{book.volumeInfo.title}</h1>
       <div className='details-container'>
         <img
           src={

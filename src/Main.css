@@ -1033,16 +1033,41 @@ h1 {
   border-radius: 20px;
 }
 
-@media (max-width: 1300px) {
-  .details-container {
+@media (max-width: 1400px) {
+  .details-container,
+  .getBack {
     width: 100%;
+  }
+  .details-container button,
+  .getBack button {
+    border-radius: 24px;
   }
 }
 @media (max-width: 730px) {
   .details-container {
     flex-wrap: wrap;
   }
+  .bookTitle {
+    font-size: 2.5rem;
+  }
 }
+@media (max-width: 665px) {
+  .text-info {
+    max-width: 88% !important;
+  }
+}
+@media (max-width: 500px) {
+  .details-container {
+    gap: 72px;
+  }
+  .getBack button {
+    font-size: 12px;
+  }
+}
+.bookTitle {
+  text-align: center !important;
+}
+
 html {
   scroll-behavior: smooth;
 }
